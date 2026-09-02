@@ -1,0 +1,20 @@
+========================================
+ PHASE 1.5: 8-BIT SFT (ADAMW)           
+========================================
+Loading Base Phase 1 Brain from /opt/rishabh_experimental/rishabh_final.pt...
+Initializing 8-Bit AdamW Optimizer (lr=1e-3)...
+Loading SFT Dataset...
+Starting SFT Logic Overwrite!
+/usr/lib/python3.11/contextlib.py:105: FutureWarning: `torch.backends.cuda.sdp_kernel()` is deprecated. In the future, this context manager will be removed. Please see `torch.nn.attention.sdpa_kernel()` for the new context manager, with updated signature.
+  self.gen = func(*args, **kwds)
+8-Bit SFT Step 0010 | Loss: 79.0000 | Time: 0.25s
+8-Bit SFT Step 0020 | Loss: 43.5000 | Time: 0.21s
+8-Bit SFT Step 0030 | Loss: 42.7500 | Time: 0.22s
+8-Bit SFT Step 0040 | Loss: 33.2500 | Time: 0.24s
+8-Bit SFT Step 0050 | Loss: 23.6250 | Time: 0.22s
+8-Bit SFT Step 0060 | Loss: 16.7500 | Time: 0.21s
+8-Bit SFT Step 0070 | Loss: 15.9375 | Time: 0.22s
+8-Bit SFT Step 0080 | Loss: 10.3750 | Time: 0.22s
+8-Bit SFT Step 0090 | Loss: 10.0625 | Time: 0.23s
+8-Bit SFT Step 0100 | Loss: 7.7812 | Time: 0.24s
+Stopping early after 200 steps to check if loss dropped!
